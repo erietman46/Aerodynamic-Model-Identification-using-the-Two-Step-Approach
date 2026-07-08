@@ -1,17 +1,22 @@
 %% A simple data file loader
 % Coen de Visser, TU-Delft, 2026
 
-clear all
+clear; clc;
 
 % Select datafile to load
-   
-dataname = uigetfile('.mat');
+[file, path] = uigetfile('*.mat');
+
+if isequal(file,0)
+    error('No file selected.');
+end
+
+dataname = fullfile(path, file);
+
 try
     load(dataname);
 catch
-    Error('Error loading data file');
+    error('Error loading data file');
 end
-
 %%
 close all;
 % variables in data file:
