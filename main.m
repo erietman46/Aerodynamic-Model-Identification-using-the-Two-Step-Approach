@@ -1,6 +1,7 @@
 %% main.m
 % AE4320 Assignment 2026
 % Aerodynamic Model Identification using the Two-Step Approach
+% Tycho and Eltjo Assignment
 
 clear; clc; close all;
 
