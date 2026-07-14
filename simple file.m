@@ -231,7 +231,7 @@ end
 
 %% Nonlinear aircraft equations
 
-function xdot = dynamics(x,um,g)
+function xdot = navDynamics(x,um,g)
 
     u = x(4);  v = x(5);  w = x(6);
     phi = x(7); theta = x(8); psi = x(9);

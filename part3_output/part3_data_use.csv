@@ -1,0 +1,6 @@
+Item,Source_or_block,Purpose,First_time_s,Last_time_s,Samples
+File,C:\Users\eltjo\OneDrive - Delft University of Technology\TU Delft\Specialization\Aerodynamic-Model-Identification-using-the-Two-Step-Approach\da3211_1.mat,Commanded controls and timing,,,
+File,C:\Users\eltjo\OneDrive - Delft University of Technology\TU Delft\Specialization\Aerodynamic-Model-Identification-using-the-Two-Step-Approach\part2_da3211_EKF_results.mat,EKF states corrected IMU and estimated biases,,,
+Block,Initial_OLS,Initial parameter estimate,19.500000,22.990000,350
+Block,RLS_update,Chronological recursive update,23.000000,24.990000,200
+Block,Independent_validation,Unseen model validation,25.000000,31.990000,700
